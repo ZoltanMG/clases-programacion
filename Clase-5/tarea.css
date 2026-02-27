@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    /* align-items:flex-start; */
+    justify-content: center;
+}
+
+nav {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mexico-logo img {
+    width: 60px;
+    /* filter: invert(100%); */
+    cursor: pointer;
+}
+
+.mexico-options {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px;
+    transition: 180ms;
+}
+
+li:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+h1 {
+    color: darkslategrey;
+}
+
+.boton {
+    color: white;
+    background-color: #b3b3b3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: linear 180ms;
+}
+
+h2 {
+    color: gray;
+}
+
+.boton {
+    color: white;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    transition: linear 180ms
+}
+
+.imagen-acapulco {
+    height: 600px;
+}

@@ -1,0 +1,22 @@
+h1 {
+    color: tomato;
+}
+
+.boton {
+    color: tomato;
+    background-color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 20px ;
+    padding: 5px;
+    border: dotted 1px tomato;
+    border-radius: 4px;
+    font-size: 10px;
+    transition: linear 180ms;
+}
+
+.boton:hover {
+    background-color: tomato;
+    color: white;
+    font-size: 50px;
+}
