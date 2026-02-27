@@ -2,3 +2,5 @@ Ruta absoluta:
 C:\Users\zolta\Documents\Code\clases-programacion\Clase-6
 ruta relativa:
 Clase-6\index-1.html
+
+Comandos
