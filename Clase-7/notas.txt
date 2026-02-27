@@ -4,3 +4,7 @@ ruta relativa:
 Clase-6\index-1.html
 
 Comandos
+git init
+git add <nombre_archivo>
+git commit -m "<mensaje>"
+git push origin trunk
