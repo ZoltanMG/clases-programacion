@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.balon {
+    background-color: chocolate;
+    width: 150px;
+    height: 350px;
+    margin: 10px;
+}
