@@ -8,3 +8,4 @@ git init
 git add <nombre_archivo>
 git commit -m "<mensaje>"
 git push origin trunk
+git pull origin trunk
