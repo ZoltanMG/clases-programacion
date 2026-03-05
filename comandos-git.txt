@@ -8,3 +8,6 @@ git pull origin <rama>            - trae los cambios del repositorios
 git branch <nombre_nueva_rama>    - crea una rama
 git checkout <nombre_rama>        - cambiar entre ramas
 git log                           - mostrar el historial de commits
+git merge <nombre_rama_target>    - Ubicado en la rama principal se ejecuta este comando para unir cambios conj otra rama en concreto
+git branch                        - listarme las ramas en local
+git branch -D <rama-eliminar>     - elimina una rama en concreto
