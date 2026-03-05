@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.barra-sup {
+    width: 100%;
+    height: 100px;
+    background-color: #ff00f2;
+}
+
+.cont-central {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.cont-cir {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.circulos {
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 0 53px;
+}
+
+.rectangulo {
+    width: 350px;
+    height: 110px;
+    background-color: blue;
+}
+
+.rectangulo-2 {
+    width: 50%;
+    height: 200px;
+    background-color: green;
+}
