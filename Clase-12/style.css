@@ -1,0 +1,191 @@
+body {
+    background-color: #0c1014;
+    display: flex;
+}
+
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+nav {
+    width: 75px;
+    height: 100vh;
+    background-color: #FFF;
+}
+
+.info-perfil {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 570px;
+    margin: auto;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.foto-perfil img{
+    width: 100%;
+}
+
+.datos-perfil {
+    width: 50%;
+}
+
+.arroba-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.arroba-usuario p{
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.opciones-usuario {
+    display: flex;
+    margin-left: 8px;
+}
+
+.opciones-usuario li{
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+.nombre-usuario p {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.seguidores {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.seguidores p{
+    color: #FFF;
+    font-size: 12px;
+
+}
+
+.botones {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-perfil-base {
+    background-color: #25292e;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.btn-perfil-base:hover {
+    background-color: #3a3f45;
+}
+
+.btn-siguiendo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.btn-siguiendo p {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.btn-siguiendo img {
+    width: 25px;
+    filter: invert(100%);
+}
+
+.btn-enviar-mensaje {
+    border: none;
+    width: 240px;
+    color: #FFF;
+}
+
+.btn-agregar-amigo {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-agregar-amigo img {
+    width: 45%;
+    filter: invert(100%);
+    transform: scaleX(-100%);
+}
+
+.destacadas {
+    display: flex;
+    width: 490px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.cont-destacada {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cont-destacada p {
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+
+.destacada {
+    padding: 3px;
+    background-color: #3a3f45;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.destacada div{
+    border: solid 3px #0c1014;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destacada img{
+    width: 100%;
+}
