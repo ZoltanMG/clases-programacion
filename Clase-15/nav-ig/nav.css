@@ -3,7 +3,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Barra lateral */
 .sidebar {
     position: fixed;
     left: 0;
@@ -13,21 +12,20 @@ body {
     background: #1e1e2f;
     transition: width 0.3s;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
-/* Expandir al pasar cursor */
 .sidebar:hover {
     width: 220px;
 }
 
-/* Lista */
 .sidebar ul {
     list-style: none;
     padding: 0;
-    margin-top: 300px;
+    /* margin-top: 300px; */
 }
 
-/* Items */
 .sidebar li {
     display: flex;
     align-items: center;
@@ -41,21 +39,19 @@ body {
     background: #33334d;
 }
 
-/* Iconos */
 .sidebar i {
     font-size: 20px;
     min-width: 40px;
     text-align: center;
 }
 
-/* Texto oculto */
-.sidebar span {
+.sidebar P {
+    margin: 0;
+    padding: 0;
     opacity: 0;
-    white-space: nowrap;
     transition: opacity 0.2s;
 }
 
-/* Mostrar texto al expandir */
-.sidebar:hover span {
+.sidebar:hover P {
     opacity: 1;
 }
