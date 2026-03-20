@@ -1,0 +1,21 @@
+let variable1 = 85;
+const variable2 = "Hola";
+const fechaNacimiento = 1995;
+const fechaActual = 2026;
+const edad = fechaActual - fechaNacimiento;
+console.log("dadasda");
+console.log(30);
+console.log(30 + 5);
+console.log(30 + "asdad");
+console.log(edad);
+;
+// Tipos de variables;
+const boolTrue = true;
+const boolFalse = false;
+const nuemerosEnteros = 10;
+const nuemerosDecimales = 10.75;
+const texto1 = "Hola mundo!";
+const texto2 = 'Hola mundo 2!';
+const texto3 = 'En su busqueda tal vez quizo decir "kubernetes"';
+const texto4 = "En su busqueda tal vez quizo decir 'kubernetes'";
+console.log(texto3)
